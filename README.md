@@ -82,7 +82,7 @@ AI for Human Resources and Talent Work
 - [Bertrand, Mullainathan: Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination (NBER Working Paper 9873)](https://www.nber.org/papers/w9873)
 - [Neumark, Burn, Button: Is It Harder for Older Workers to Find Jobs? New and Improved Evidence from a Field Experiment (NBER Working Paper 21669)](https://www.nber.org/papers/w21669)
 - [Wilson, Caliskan: Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval (2024)](https://arxiv.org/abs/2407.20371)
-- [An, Huang, Lin, Tai: Measuring gender and racial biases in large language models: Intersectional evidence from automated resume evaluation (PNAS Nexus, 2025)](https://doi.org/10.1093/pnasnexus/pgaf089)
+- [An, Huang, Lin, Tai: Measuring gender and racial biases in large language models: Intersectional evidence from automated resume evaluation (PNAS Nexus, 2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11937954/)
 - [Veldanda et al.: Are Emily and Greg Still More Employable than Lakisha and Jamal? Investigating Algorithmic Hiring Bias in the Era of ChatGPT (2023)](https://arxiv.org/abs/2310.05135)
 
 ### الوصف الوظيفي والمقابلة المنظمة وأدوات الكشف
