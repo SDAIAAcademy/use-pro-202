@@ -5,7 +5,7 @@ AI for Human Resources and Talent Work
 
 مسار الطلاقة في البيانات والذكاء الاصطناعي · أكاديمية سدايا · USE-PRO-202 · المستوى 200
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+تستعين بالمساعد في إعداد الإعلان والمقابلة وخطة التعلم، وتختبر تحيزه بنفسك، وتحمي بيانات الموظفين قبل أي أمر، ويبقى القرار في شأن الناس للناس
 
 تعتزم جهة افتراضية توظيف محلل وتخطط لتعلم فريقها. ويُعدّ المشاركون إعلانات الوظائف والمقابلات وخطط التعلم باستخدام مساعد ذكاء اصطناعي، ويختبرونه للكشف عن التحيز بأزواج متطابقة من السير الذاتية، وفق قاعدة واحدة: الذكاء الاصطناعي يساعد في الإعداد، والبشر يقررون في شأن البشر.
 
@@ -29,13 +29,18 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| اليوم 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day1.html`](slides/day1.html) |
-| اليوم 2 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day2.html`](slides/day2.html) |
+| اليوم 1 | أين يساعد الذكاء الاصطناعي في الموارد البشرية، وأين يدخل التحيز | مهام الموارد البشرية وموضع الذكاء الاصطناعي فيها; الوصف الوظيفي: الصياغة والمتطلبات; كيف يدخل التحيز، واختبار الأزواج المتطابقة; قراءة النتيجة: الفرق أمام التباين | [`slides/day1.html`](slides/day1.html) |
+| اليوم 2 | تقييم منصف، وبيانات موظفين محمية، وإعادة تصميم تُقاس | الأسئلة المرتبطة بالوظيفة وسلالم التقدير المرتكزة; بيانات الموظفين قبل أي أمر; خطط تعلم مبنية على الفجوات; إعادة تصميم مهمة وقياسها | [`slides/day2.html`](slides/day2.html) |
+| المشروع الختامي | بطاقة إعادة التصميم والمراجعة المباشرة |  | [`slides/capstone.html`](slides/capstone.html) |
 <!-- /academy:units -->
 
 ## دراسة الحالة
 
-**REPLACE: اسم الجهة الافتراضية التي تعمل عليها كل المختبرات.** REPLACE: جملتان عن دراسة الحالة وبياناتها الاصطناعية
+**شركة أرائك للأثاث.** شركة أرائك للأثاث جهة افتراضية: مصنع واحد و14 معرضًا ونحو 1,900 موظف. إدارة رأس المال البشري فيها توظف محلل بيانات لوحدة تخطيط الإمداد وتخطط لتعلم محللي الوحدة الثلاثة، ومعها المساعد «ناصح» الذي أقرّته الشركة. ملفات المختبرات: بطاقة الدور، ووصف وظيفي صاغه المساعد فيه 13 عيبًا مزروعًا، وعشرة أزواج متطابقة من السير الذاتية مع أربعين درجة مسجلة من مقيِّم بديل مبرمج، وأسئلة مقابلة كتبها المدير، وثلاثة ملفات موظفين خام تُرمَّز، وسجل زمني لمهمة متكررة. كل ما يخص الشركة اصطناعي ومولّد ببذرة ثابتة، والعيوب مزروعة عمدًا ولها مفتاح إجابة للمدرب.
+
+القاعدة التي تحكم كل مختبر: الذكاء الاصطناعي يساعد في الإعداد، والبشر يقررون في شأن البشر.
+
+الدرجات المسجلة في مختبر قراءة الدرجات يكتبها مقيِّم بديل مبرمج كُتب لهذا المقرر وزُرعت فيه فروق معلومة. ليس نموذجًا لغويًا ولا منتجًا، ولا يُستنتج من أرقامه شيء عن أي مساعد حقيقي. في أزواج الاسم الأربعة يقابل اسمٌ عربي الأصل اسمًا غير عربي الأصل، ولا سطر للجنسية في أي سيرة، والأسماء كلها مختلقة.
 
 <!-- academy:labs -->
 ## المختبرات
@@ -44,14 +49,14 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | | الجلسة | المختبر | الملف |
 |---|---|---|---|
-| 1.1 | اليوم 1 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 1.1 | [`D1_1.html`](labs/D1_1.html) |
-| 1.2 | اليوم 1 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 1.2 | [`D1_2.html`](labs/D1_2.html) |
-| 1.3 | اليوم 1 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 1.3 | [`D1_3.html`](labs/D1_3.html) |
-| 1.4 | اليوم 1 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 1.4 | [`D1_4.html`](labs/D1_4.html) |
-| 2.1 | اليوم 2 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 2.1 | [`D2_1.html`](labs/D2_1.html) |
-| 2.2 | اليوم 2 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 2.2 | [`D2_2.html`](labs/D2_2.html) |
-| 2.3 | اليوم 2 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 2.3 | [`D2_3.html`](labs/D2_3.html) |
-| 2.4 | اليوم 2 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 2.4 | [`D2_4.html`](labs/D2_4.html) |
+| 1.1 | اليوم 1 · الجلسة 1 | جدول مستويات المخاطر | [`D1_1_risk_tiers.html`](labs/D1_1_risk_tiers.html) |
+| 1.2 | اليوم 1 · الجلسة 2 | تنقيح وصف وظيفي | [`D1_2_job_description.html`](labs/D1_2_job_description.html) |
+| 1.3 | اليوم 1 · الجلسة 3 | تجهيز اختبار الأزواج وتشغيله | [`D1_3_matched_pairs.html`](labs/D1_3_matched_pairs.html) |
+| 1.4 | اليوم 1 · الجلسة 4 | قراءة أربعين درجة وكتابة التوصية | [`D1_4_read_scores.html`](labs/D1_4_read_scores.html) |
+| 2.1 | اليوم 2 · الجلسة 1 | بناء دليل مقابلة | [`D2_1_interview_guide.html`](labs/D2_1_interview_guide.html) |
+| 2.2 | اليوم 2 · الجلسة 2 | ترميز ثلاثة ملفات وسجل التنقيح | [`D2_2_pseudonymise.html`](labs/D2_2_pseudonymise.html) |
+| 2.3 | اليوم 2 · الجلسة 3 | صياغة خطط تعلم مرمَّزة | [`D2_3_learning_plans.html`](labs/D2_3_learning_plans.html) |
+| 2.4 | اليوم 2 · الجلسة 4 | بطاقة إعادة التصميم | [`D2_4_redesign_card.html`](labs/D2_4_redesign_card.html) |
 <!-- /academy:labs -->
 
 ## المتطلبات السابقة
@@ -72,12 +77,102 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
-<!-- /academy:sources -->
+### التحيز في الفرز والتوظيف
+
+- [Bertrand, Mullainathan: Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination (NBER Working Paper 9873)](https://www.nber.org/papers/w9873)
+- [Neumark, Burn, Button: Is It Harder for Older Workers to Find Jobs? New and Improved Evidence from a Field Experiment (NBER Working Paper 21669)](https://www.nber.org/papers/w21669)
+- [Wilson, Caliskan: Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval (2024)](https://arxiv.org/abs/2407.20371)
+- [An, Huang, Lin, Tai: Measuring gender and racial biases in large language models: Intersectional evidence from automated resume evaluation (PNAS Nexus, 2025)](https://doi.org/10.1093/pnasnexus/pgaf089)
+- [Veldanda et al.: Are Emily and Greg Still More Employable than Lakisha and Jamal? Investigating Algorithmic Hiring Bias in the Era of ChatGPT (2023)](https://arxiv.org/abs/2310.05135)
+
+### الوصف الوظيفي والمقابلة المنظمة وأدوات الكشف
+
+- [Gaucher, Friesen, Kay: Evidence that gendered wording in job advertisements exists and sustains gender inequality (Journal of Personality and Social Psychology, 2011)](https://doi.org/10.1037/a0022530)
+- [Sackett, Zhang, Berry, Lievens: Revisiting meta-analytic estimates of validity in personnel selection (Journal of Applied Psychology, 2022)](https://doi.org/10.1037/apl0000994)
+- [Liang, Yuksekgonul, Mao, Wu, Zou: GPT detectors are biased against non-native English writers (Patterns, 2023)](https://doi.org/10.1016/j.patter.2023.100779)
+
+### أمثلة من أنظمة خارج المملكة
+
+- [EU Artificial Intelligence Act, Annex III: High-Risk AI Systems Referred to in Article 6(2)](https://artificialintelligenceact.eu/annex/3/)
+- [New York City Department of Consumer and Worker Protection: Automated Employment Decision Tools (Local Law 144 of 2021)](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
+
+### أطر المهارات والأدوات
+
+- [ESCO: What is ESCO?](https://esco.ec.europa.eu/en/about-esco/what-esco)
+- [O*NET OnLine](https://www.onetonline.org/)
+- [Open WebUI documentation](https://docs.openwebui.com/)
 
 ### المرجعيات الوطنية
 
-- نظام حماية البيانات الشخصية ولائحته التنفيذية: REPLACE: عنوان النص الرسمي
-- مبادئ أخلاقيات الذكاء الاصطناعي الصادرة عن سدايا: REPLACE: عنوان النص الرسمي
-- الدليل المرجعي للتحيز في الذكاء الاصطناعي الصادر عن سدايا: REPLACE: عنوان النص الرسمي
-- إطار المعايير المهنية في البيانات والذكاء الاصطناعي: REPLACE: عنوان النص الرسمي
+- [نظام حماية البيانات الشخصية (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf)
+- [اللائحة التنفيذية لنظام حماية البيانات الشخصية (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/ImplementingRegulationPersonalDataProtectionLawAr.pdf)
+- [الدليل الاسترشادي لإتلاف البيانات الشخصية وإخفاء الهوية والترميز (سدايا)](https://sdaia.gov.sa/Documents/PersonalDataDestructionAnonymizationAndPseudonymisationGuidelineAR.pdf)
+- [الدليل الاسترشادي لتحديد الحد الأدنى من البيانات الشخصية (سدايا)](https://sdaia.gov.sa/Documents/MinmumPDGuidelineArabic.pdf)
+- [مبادئ أخلاقيات الذكاء الاصطناعي (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/ai-principles.pdf)
+- [الدليل المرجعي للتحيز في الذكاء الاصطناعي (سدايا)](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/AR-AI-BIAS.pdf)
+- [إطار المعايير المهنية في البيانات والذكاء الاصطناعي (سدايا)](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf)
+<!-- /academy:sources -->
+
+## كيف يُنظَّم المقرر
+
+- **قبل الورشة (عمل تحضيري):** يختار المشارك مهمة متكررة واحدة من عمله، مهمة إعداد لا قرار في شأن شخص، وينفذها ثلاث مرات كما ينفذها اليوم، ويسجّل الوقت والأخطاء وسؤالًا واحدًا عن الإنصاف. الورقة في `labs/files/prework/baseline_sheet.md`. هذا خط الأساس المتعقَّب.
+- **يومان، في كل يوم أربع جلسات:** في كل جلسة مفاهيم ثم مختبر مدته 25 دقيقة يبدأ من ملفات جاهزة وله حل مرجعي. لا مختبر يعتمد على مختبر آخر.
+- **سجل الجلسات:** ملف واحد يكتب فيه المشارك سطرًا في آخر كل مختبر: ماذا طلب من المساعد، وماذا ألصق فيه، وما تحقق منه، ومن قرر.
+- **بعد الورشة:** ينفذ المشارك مهمته مرتين بتصميمها الجديد ويقيس المقاييس الثلاثة.
+- **جلسة المراجعة:** اختبار قصير مراقب دون ذكاء اصطناعي، ثم مراجعة مباشرة لكل مشارك.
+
+أربعة من مختبرات المقرر تنفذ سطور وصفه الأربعة: تنقيح وصف وظيفي (1.2)، وتشغيل أزواج متطابقة من السير الذاتية (1.3 و1.4)، وبناء دليل مقابلة (2.1)، وصياغة خطط تعلم مرمَّزة (2.2 و2.3). والمختبر 1.1 يخرج بدليل الناتج الأول، والمختبر 2.4 يبدأ المشروع الختامي.
+
+### استخدام الذكاء الاصطناعي في المقرر
+
+| متى | القاعدة |
+|---|---|
+| الاختبار القصير المراقب، والمسودة الأولى لأسئلة المقابلة (2.1) | دون ذكاء اصطناعي |
+| تنقيح الوصف الوظيفي (1.2) | المساعد مرشد: يسأل ولا يكتب |
+| اختبار التحيز (1.3 و1.4)، وخطط التعلم (2.3)، وإعادة التصميم (2.4) | يُستخدم كاملًا، والمشارك يدافع عن النتيجة |
+| ترميز ملفات الموظفين (2.2) | يجريه المشارك بنفسه، ولا يدخل ملف خام أي أداة |
+
+### التقييم
+
+| المكوّن | الوزن |
+|---|---|
+| اختبار قصير مراقب دون ذكاء اصطناعي: أخطاء التحيز والبيانات في سيناريو | 20% |
+| مخرجات عمل المختبرات | 40% |
+| بطاقة إعادة التصميم والمراجعة المباشرة | 40% |
+
+النجاح: 70% في المجموع، مع إكمال اختبار الأزواج ودعم توصيته بالأدلة. مواد الاختبار المراقب لا تُحفظ في هذا المستودع.
+
+## المشروع الختامي
+
+إعادة تصميم مهمة متكررة واحدة، وقياسها مقابل خط الأساس من العمل التحضيري، ومراجعتها مراجعة مباشرة.
+
+مشروع فردي يُسلَّم رابطًا لمجلد مشترك في Google Drive، فيه: بطاقة إعادة التصميم، وورقة خط الأساس من العمل التحضيري، وسجل التنفيذين بمساعدة الذكاء الاصطناعي، وسجل الجلسات، وورقة اختبار الأزواج بتوصيتها. لا اسم ولا رقم وظيفي ولا أي بيان عن شخص في أي ملف. ثم مراجعة مباشرة مدتها عشر دقائق: أربع لعرض البطاقة، وست للأسئلة يعيد فيها المشارك تقييم زوجين من السير الذاتية ويقرأ الفرق.
+
+| معيار تقييم البطاقة والمراجعة | الوزن |
+|---|---|
+| القياس قبل وبعد: الوقت والأخطاء من خط الأساس والتنفيذين | 25 |
+| مقياس الإنصاف: سؤاله وطريقة قياسه ونتيجته | 25 |
+| حدود الاستخدام: ما يبقى بيد البشر ومن يقرر | 20 |
+| حماية البيانات: الترميز وسجل التنقيح والأداة المصرح بها | 15 |
+| الدفاع المباشر وإعادة تقييم زوجين من السير | 15 |
+
+## الحلول المرجعية
+
+لكل مختبر حل مرجعي في `labs/solutions/`، ومفتاح إجابة لما زُرع في الملفات (`labs/solutions/answer_key.md`). الحلول تُشغَّل بأمر واحد: `node labs/solutions/check.mjs`. وملفات الحالة يكتبها `node labs/_tools/prepare_files.mjs` ببذرة ثابتة.
+
+ما يفعله المشارك في المساعد لا يُشغَّل في الحلول على نموذج لغوي: يقوم مقامه مقيِّم بديل مبرمج ومسودة مسجلة. يجرّب المدرب أوامر المختبرات على مساعد القاعة قبل كل دفعة.
+
+## الاستخدام المسؤول
+
+يتناول المقرر الإنصاف، والمساءلة البشرية عن القرارات المتعلقة بالأشخاص، والشفافية تجاه المرشحين والموظفين، وحماية بيانات الموظفين. يقيس المشاركون التحيز بأنفسهم ويرمّزون كل ملف بأنفسهم. السير الذاتية وملفات الموظفين اصطناعية كلها، ولا يدخل المختبرات أي بيان عن شخص حقيقي.
+
+الأنظمة الأجنبية المذكورة في المقرر (قانون الذكاء الاصطناعي الأوروبي، والقانون المحلي 144 في مدينة نيويورك) أمثلة لا تسري في المملكة، وتواريخ نفاذها تتغير: تُراجَع عند كل تحديث للمقرر.
+
+### المرجعيات الوطنية
+
+- نظام حماية البيانات الشخصية: https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf
+- اللائحة التنفيذية لنظام حماية البيانات الشخصية: https://sdaia.gov.sa/ar/SDAIA/about/Documents/ImplementingRegulationPersonalDataProtectionLawAr.pdf
+- مبادئ أخلاقيات الذكاء الاصطناعي الصادرة عن سدايا: https://sdaia.gov.sa/ar/SDAIA/about/Documents/ai-principles.pdf
+- الدليل المرجعي للتحيز في الذكاء الاصطناعي الصادر عن سدايا: https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/AR-AI-BIAS.pdf
+- إطار المعايير المهنية في البيانات والذكاء الاصطناعي: https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/DataAIOccupationalStandardsFramework.pdf
+- [صفحة الأنظمة والسياسات في موقع سدايا](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
