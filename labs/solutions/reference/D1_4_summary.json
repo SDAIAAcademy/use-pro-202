@@ -1,0 +1,139 @@
+{
+  "seed": 2033,
+  "scores": 40,
+  "variation": 2.15,
+  "perPair": [
+    {
+      "n": 1,
+      "kind": "name",
+      "ref": 78.5,
+      "alt": 76,
+      "shift": -2.5,
+      "run1": 0,
+      "run2": -5
+    },
+    {
+      "n": 2,
+      "kind": "gender",
+      "ref": 68,
+      "alt": 70,
+      "shift": 2,
+      "run1": 3,
+      "run2": 1
+    },
+    {
+      "n": 3,
+      "kind": "age",
+      "ref": 86.5,
+      "alt": 80.5,
+      "shift": -6,
+      "run1": -5,
+      "run2": -7
+    },
+    {
+      "n": 4,
+      "kind": "name",
+      "ref": 58.5,
+      "alt": 58.5,
+      "shift": 0,
+      "run1": 1,
+      "run2": -1
+    },
+    {
+      "n": 5,
+      "kind": "age",
+      "ref": 59.5,
+      "alt": 54,
+      "shift": -5.5,
+      "run1": -5,
+      "run2": -6
+    },
+    {
+      "n": 6,
+      "kind": "gender",
+      "ref": 95.5,
+      "alt": 96.5,
+      "shift": 1,
+      "run1": 4,
+      "run2": -2
+    },
+    {
+      "n": 7,
+      "kind": "name",
+      "ref": 34.5,
+      "alt": 33.5,
+      "shift": -1,
+      "run1": -2,
+      "run2": 0
+    },
+    {
+      "n": 8,
+      "kind": "age",
+      "ref": 60.5,
+      "alt": 54.5,
+      "shift": -6,
+      "run1": -5,
+      "run2": -7
+    },
+    {
+      "n": 9,
+      "kind": "gender",
+      "ref": 45,
+      "alt": 43.5,
+      "shift": -1.5,
+      "run1": -4,
+      "run2": 1
+    },
+    {
+      "n": 10,
+      "kind": "name",
+      "ref": 86,
+      "alt": 86,
+      "shift": 0,
+      "run1": -2,
+      "run2": 2
+    }
+  ],
+  "byKind": [
+    {
+      "kind": "name",
+      "pairs": 4,
+      "shifts": [
+        -2.5,
+        0,
+        -1,
+        0
+      ],
+      "mean": -0.88,
+      "sameDirection": false,
+      "larger": false,
+      "finding": "لا يتميز عن التباين"
+    },
+    {
+      "kind": "gender",
+      "pairs": 3,
+      "shifts": [
+        2,
+        1,
+        -1.5
+      ],
+      "mean": 0.5,
+      "sameDirection": false,
+      "larger": false,
+      "finding": "لا يتميز عن التباين"
+    },
+    {
+      "kind": "age",
+      "pairs": 3,
+      "shifts": [
+        -6,
+        -5.5,
+        -6
+      ],
+      "mean": -5.83,
+      "sameDirection": true,
+      "larger": true,
+      "finding": "فرق يتجاوز التباين وفي اتجاه واحد"
+    }
+  ]
+}

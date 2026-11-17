@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "minutes": 94,
+    "errors": 2,
+    "fair": "3 من 3"
+  },
+  "assisted1": {
+    "minutes": 38,
+    "errors": 4,
+    "fair": "1 من 3",
+    "saving_pct": 60
+  },
+  "assisted2": {
+    "minutes": 49,
+    "errors": 1,
+    "fair": "3 من 3",
+    "saving_pct": 48
+  }
+}

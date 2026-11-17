@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="fluency">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 2.2 · ترميز ثلاثة ملفات وسجل التنقيح · الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="D2_2_pseudonymise.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/day2.html#lab-2-2">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 2.2</span>
+<h1>ترميز ثلاثة ملفات وسجل التنقيح</h1>
+<p>ترمّز بنفسك ثلاثة ملفات موظفين خام قبل أن يرى المساعد أي شيء منها، وتكتب سجل التنقيح</p>
+<div class="meta"><span>30 دقيقة</span><span>اليوم 2</span><span>الجلسة 2: بيانات الموظفين قبل أي أمر</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="2.2">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>ثلاثة ملفات موظفين مرمَّزة بيدك، فيها ما يلزم لخطة تعلم ولا شيء غيره.</li>
+    <li>سجل تنقيح: لكل بند إجراؤه وسببه. السجل من دليل الناتج الرابع.</li>
+  </ul>
+</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/profiles/raw/AR-20417_نبيلة_الصايغ.md" download><b>الملف الخام الأول</b><span>ملف موظفة كما في نظام الموارد البشرية. اصطناعي.</span></a>
+  <a href="files/profiles/raw/AR-11863_رضا_الناصر.md" download><b>الملف الخام الثاني</b><span>ملف موظف كما في نظام الموارد البشرية. اصطناعي.</span></a>
+  <a href="files/profiles/raw/AR-31209_شفيق_البدر.md" download><b>الملف الخام الثالث</b><span>ملف موظف كما في نظام الموارد البشرية. اصطناعي.</span></a>
+  <a href="files/start/sanitisation_log.csv" download><b>sanitisation_log.csv</b><span>سجل التنقيح، وفيه سطر مثال.</span></a>
+</div>
+<p class="small"><b>الغرض:</b> بثينة ستطلب من «ناصح» اقتراحات تعلم للمحللين الثلاثة. الغرض يحدد ما يبقى في الملف.</p>
+<p class="small"><b>استخدام الذكاء الاصطناعي في هذا المختبر:</b> الملفات الخام لا تدخل أي أداة، مصرحًا بها أو غير مصرح، ولو كانت اصطناعية: العادة هي ما تتدرب عليه. الترميز تجريه أنت. المساعد لا يرى إلا النسخة المرمَّزة، في التمرين الإضافي.</p>
+
+<table>
+  <tr><th>الإجراء</th><th>متى</th></tr>
+  <tr><td>ترميز</td><td>معرِّف يلزم أن تعود به إلى صاحبه لاحقًا: يُستبدل به رمز، والمفتاح يُحفظ بعيدًا</td></tr>
+  <tr><td>حذف</td><td>بند لا يلزم للغرض</td></tr>
+  <tr><td>تعميم</td><td>بند يلزم منه القليل: فئة بدل الرقم الدقيق</td></tr>
+  <tr><td>إبقاء</td><td>بند يلزم للغرض كما هو</td></tr>
+</table>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · علّم ما في الملف الأول <span class="min">5 دقائق</span></h3>
+  <p>اقرأ الملف الأول كله، وملاحظات المدير كلمة كلمة. علّم ثلاثة أنواع: المعرِّف المباشر (يدل على صاحبه وحده)، والمعرِّف غير المباشر (يدل عليه مع غيره، أو في وحدة صغيرة)، والبيان الحساس أو الظرف الشخصي.</p>
+  <p>انظر أيضًا في اسم الملف نفسه.</p>
+</div>
+
+<div class="step">
+  <h3>2 · قرر لكل بند واكتب السبب <span class="min">7 دقائق</span></h3>
+  <p>في سجل التنقيح سطر لكل بند: نوعه، والإجراء، والسبب. السبب يعود إلى الغرض: هل تحتاج خطة التعلم إلى هذا البند؟</p>
+</div>
+
+<div class="step">
+  <h3>3 · اكتب النسخ المرمَّزة الثلاث <span class="min">11 دقيقة</span></h3>
+  <p>ملف جديد لكل موظف باسم رمزه: <span class="en">T1</span> و<span class="en">T2</span> و<span class="en">T3</span>. لا تنسخ ملاحظات المدير: خذ منها ما يخص المهارات فقط وأعد كتابته. طبّق على الملفين الثاني والثالث ما قررته في الأول، وأضف إلى السجل ما تجده جديدًا فيهما.</p>
+</div>
+
+<div class="step">
+  <h3>4 · اختبار الزميل <span class="min">5 دقائق</span></h3>
+  <p>بادل ملفًا مرمَّزًا مع زميل قرأ الملفات الخام. هل يعرف صاحبه؟ من أي سطر؟ ما دلّه يدخل سجلك معرِّفًا غير مباشر.</p>
+</div>
+
+<div class="step">
+  <h3>5 · المفتاح وسجل الجلسة <span class="min">دقيقتان</span></h3>
+  <p>اكتب في آخر سجل التنقيح: أين يُحفظ جدول الرموز والأسماء، ومن يصل إليه. ثم سطر المختبر 2.2 في سجل الجلسة: ماذا دخل المساعد؟ الجواب الصحيح هنا: لا شيء.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي: دع المساعد يبحث</h3>
+  <p>ألصق في المساعد المصرح به نسخة مرمَّزة واحدة، واسأله: ما الذي في هذا النص قد يدل على صاحبه عند من يعرف وحدة من ثلاثة أشخاص؟</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>أي بيان في كل ملف حساس أو ظرف شخصي، وأين كان مدفونًا؟</li>
+  <li>أي جملة في ملاحظات المدير تدل على صاحبها دون اسم ولا رقم؟</li>
+  <li>ملفك المرمَّز: هل ما زال بيانات شخصية؟ ولماذا؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرب</summary>
+  <ul>
+    <li>الحل المرجعي: <code>labs/solutions/D2_2_pseudonymise.md</code>، والسجل في <code>labs/solutions/reference/D2_2_sanitisation_log.csv</code>. الملفات المرمَّزة المرجعية في <code>labs/files/profiles/pseudonymised</code>، وهي نقطة بداية المختبر 2.3: لا تُفتح قبل نهاية هذا المختبر.</li>
+    <li>المدفون في النص الحر: عملية جراحية ودوام مخفف (الأول)، ورعاية والدة مريضة وإنذار كتابي وبريد داخل الملاحظات (الثاني)، وعلاج القلق (الثالث).</li>
+    <li>الأوصاف التي تنطبق على شخص واحد: الوحيدة التي تحمل ماجستير من خارج المملكة، وأقدم موظفي الوحدة، والمحلل الوحيد الذي انضم هذا العام.</li>
+    <li>واقعة مشاركة ملف العملاء في الملف الثالث: تدعم فجوة في معيار حماية البيانات، وتدخل الخطة فجوةً لا واقعةً.</li>
+    <li>الخطأ المعتاد: نسخ ملاحظات المدير بعد حذف الاسم منها، وترك اسم المدير، وترك مدة الخدمة الدقيقة، ونسيان اسم الملف.</li>
+    <li>أسماء الملفات الخام فيها الرقم الوظيفي واسم الموظف عمدًا: عيب مزروع يكشفه المختبر، والأسماء والأرقام مختلقة. الملف المرمَّز يُسمّى بالرمز وحده (<code>T1.md</code>).</li>
+    <li>الترميز ليس إخفاء هوية: الملف المرمَّز بيانات شخصية ما دام المفتاح موجودًا.</li>
+  </ul>
+</details>
+</article>
+<nav class="pager"><a href="D2_1_interview_guide.html" rel="prev">→ المختبر السابق</a><a href="D2_3_learning_plans.html" rel="next">المختبر التالي ←</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار الطلاقة في البيانات والذكاء الاصطناعي · الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-17⁩ · الإيداع 43aee0d</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-17T14:12:39Z","version":"2027.1.0","commit":"43aee0d"},"course":{"id":"use-pro-202","code":"USE-PRO-202","title":"الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب","track":"fluency","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/use-pro-202/","repo":"SDAIAAcademy/use-pro-202","home":"../index.html"},"lab":{"id":"2.2","title":"ترميز ثلاثة ملفات وسجل التنقيح","summary":"ترمّز بنفسك ثلاثة ملفات موظفين خام قبل أن يرى المساعد أي شيء منها، وتكتب سجل التنقيح","minutes":30,"day":2,"unit":"اليوم 2","session":2,"deck":"../slides/day2.html#lab-2-2","prev":"D2_1_interview_guide.html","next":"D2_3_learning_plans.html","alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>

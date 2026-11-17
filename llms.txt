@@ -1,0 +1,35 @@
+# الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب
+
+> تستعين بالمساعد في إعداد الإعلان والمقابلة وخطة التعلم، وتختبر تحيزه بنفسك، وتحمي بيانات الموظفين قبل أي أمر، ويبقى القرار في شأن الناس للناس. مقرر من أكاديمية سدايا، الرمز USE-PRO-202، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/use-pro-202/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/use-pro-202/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/use-pro-202/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 17,832 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/use-pro-202/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [اليوم 1: أين يساعد الذكاء الاصطناعي في الموارد البشرية، وأين يدخل التحيز](https://sdaiaacademy.github.io/use-pro-202/slides/day1.md): القاعدة الواحدة، والوصف الوظيفي، واختبار التحيز بالأزواج المتطابقة؛ الجلسات: مهام الموارد البشرية وموضع الذكاء الاصطناعي فيها، الوصف الوظيفي: الصياغة والمتطلبات، كيف يدخل التحيز، واختبار الأزواج المتطابقة، قراءة النتيجة: الفرق أمام التباين؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/slides/day1.html؛ نحو 8,075 من الوحدات النصية
+- [اليوم 2: تقييم منصف، وبيانات موظفين محمية، وإعادة تصميم تُقاس](https://sdaiaacademy.github.io/use-pro-202/slides/day2.md): دليل المقابلة، والترميز قبل صياغة الأوامر، وخطط التعلم، وبطاقة إعادة التصميم؛ الجلسات: الأسئلة المرتبطة بالوظيفة وسلالم التقدير المرتكزة، بيانات الموظفين قبل أي أمر، خطط تعلم مبنية على الفجوات، إعادة تصميم مهمة وقياسها؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/slides/day2.html؛ نحو 7,517 من الوحدات النصية
+- [المشروع الختامي: بطاقة إعادة التصميم والمراجعة المباشرة](https://sdaiaacademy.github.io/use-pro-202/slides/capstone.md): اختبار مراقب دون ذكاء اصطناعي، ثم عشر دقائق لكل مشارك يدافع فيها عن بطاقته ويعيد تقييم زوجين من السير الذاتية؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/slides/capstone.html؛ نحو 1,559 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: جدول مستويات المخاطر](https://sdaiaacademy.github.io/use-pro-202/labs/D1_1_risk_tiers.md): اليوم 1، الجلسة 1، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D1_1_risk_tiers.html
+- [المختبر 1.2: تنقيح وصف وظيفي](https://sdaiaacademy.github.io/use-pro-202/labs/D1_2_job_description.md): اليوم 1، الجلسة 2، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D1_2_job_description.html
+- [المختبر 1.3: تجهيز اختبار الأزواج وتشغيله](https://sdaiaacademy.github.io/use-pro-202/labs/D1_3_matched_pairs.md): اليوم 1، الجلسة 3، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D1_3_matched_pairs.html
+- [المختبر 1.4: قراءة أربعين درجة وكتابة التوصية](https://sdaiaacademy.github.io/use-pro-202/labs/D1_4_read_scores.md): اليوم 1، الجلسة 4، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D1_4_read_scores.html
+- [المختبر 2.1: بناء دليل مقابلة](https://sdaiaacademy.github.io/use-pro-202/labs/D2_1_interview_guide.md): اليوم 2، الجلسة 1، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D2_1_interview_guide.html
+- [المختبر 2.2: ترميز ثلاثة ملفات وسجل التنقيح](https://sdaiaacademy.github.io/use-pro-202/labs/D2_2_pseudonymise.md): اليوم 2، الجلسة 2، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D2_2_pseudonymise.html
+- [المختبر 2.3: صياغة خطط تعلم مرمَّزة](https://sdaiaacademy.github.io/use-pro-202/labs/D2_3_learning_plans.md): اليوم 2، الجلسة 3، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D2_3_learning_plans.html
+- [المختبر 2.4: بطاقة إعادة التصميم](https://sdaiaacademy.github.io/use-pro-202/labs/D2_4_redesign_card.md): اليوم 2، الجلسة 4، 30 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-pro-202/labs/D2_4_redesign_card.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/use-pro-202/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 17,832 من الوحدات النصية
+- [context/day1.md](https://sdaiaacademy.github.io/use-pro-202/context/day1.md): اليوم 1، نحو 8,075 من الوحدات النصية
+- [context/day2.md](https://sdaiaacademy.github.io/use-pro-202/context/day2.md): اليوم 2، نحو 7,517 من الوحدات النصية
+- [context/capstone.md](https://sdaiaacademy.github.io/use-pro-202/context/capstone.md): المشروع الختامي، نحو 1,559 من الوحدات النصية

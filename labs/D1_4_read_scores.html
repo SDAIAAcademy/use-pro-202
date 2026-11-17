@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="fluency">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 1.4 · قراءة أربعين درجة وكتابة التوصية · الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="D1_4_read_scores.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/day1.html#lab-1-4">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 1.4</span>
+<h1>قراءة أربعين درجة وكتابة التوصية</h1>
+<p>تحلل في جدول بيانات أربعين درجة مسجلة لعشرة أزواج، وتضع فرق كل نوع أمام تباين التشغيلين، وتكتب توصيتك لسلمان</p>
+<div class="meta"><span>30 دقيقة</span><span>اليوم 1</span><span>الجلسة 4: قراءة النتيجة: الفرق أمام التباين</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="1.4">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>جدول فيه تباين التشغيلين، وفرق كل زوج، ومتوسط الفرق لكل نوع: الاسم والجنس والعمر.</li>
+    <li>توصية من أربعة أسطر لسلمان. الجدول والتوصية معًا دليل الناتج الثالث، وإكمالهما شرط للنجاح في المقرر.</li>
+  </ul>
+</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/start/pair_scores_recorded.csv" download><b>pair_scores_recorded.csv</b><span>أربعون درجة مسجلة: عشرون سيرة، ولكل سيرة تشغيلان.</span></a>
+  <a href="files/cv/pairs_index.csv" download><b>pairs_index.csv</b><span>فهرس الأزواج العشرة: ما يختلف في كل زوج، وأي ملف هو المرجعي.</span></a>
+</div>
+<p class="small">هذا المختبر لا يحتاج إلى درجاتك من المختبر 1.3: يبدأ من الملف المسجل ليحلل الجميع الأرقام نفسها. <b>الدرجات المسجلة من مقيِّم بديل مبرمج كُتب لهذا المقرر وفيه فروق مزروعة. ليس نموذجًا لغويًا ولا منتجًا، ولا يُستنتج منه شيء عن أي مساعد حقيقي.</b></p>
+<p class="small"><b>استخدام الذكاء الاصطناعي في هذا المختبر: كامل.</b> لك أن تسأل المساعد عن صيغة في جدول البيانات. القراءة والتوصية لك، وتدافع عنهما في المراجعة.</p>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · احسب تباين التشغيلين <span class="min">5 دقائق</span></h3>
+  <p>افتح الملف في جدول بيانات. أضف عمودًا: الفرق المطلق بين التشغيل 1 والتشغيل 2 لكل سيرة. ثم متوسط هذا العمود على العشرين سيرة.</p>
+  <pre class="code"><code>=ABS(E2-F2)
+=AVERAGE(G2:G21)</code></pre>
+  <p>هذا الرقم مسطرتك في بقية المختبر.</p>
+</div>
+
+<div class="step">
+  <h3>2 · احسب متوسط كل نسخة وفرق كل زوج <span class="min">8 دقائق</span></h3>
+  <p>أضف عمودًا لمتوسط التشغيلين لكل سيرة. ثم لكل زوج:</p>
+  <p><b>الفرق = متوسط النسخة المعدَّلة ناقص متوسط النسخة المرجعية.</b> السالب يعني أن النسخة المعدَّلة نزلت.</p>
+</div>
+
+<div class="step">
+  <h3>3 · اجمع الفروق بحسب النوع <span class="min">4 دقائق</span></h3>
+  <table>
+    <tr><th>النوع</th><th>عدد الأزواج</th><th>فروق الأزواج</th><th>متوسط الفرق</th></tr>
+    <tr><td>الاسم</td><td>4</td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>الجنس</td><td>3</td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td>العمر</td><td>3</td><td class="fill"></td><td class="fill"></td></tr>
+  </table>
+</div>
+
+<div class="step">
+  <h3>4 · طبّق القاعدة <span class="min">4 دقائق</span></h3>
+  <p>لكل نوع سؤالان: هل متوسط الفرق أكبر من تباين التشغيلين؟ وهل تتجه فروق أزواجه كلها اتجاهًا واحدًا؟ الفرق يُحتسب حين يكون الجوابان نعم.</p>
+</div>
+
+<div class="step">
+  <h3>5 · اكتب التوصية وسجّل الجلسة <span class="min">9 دقائق</span></h3>
+  <p>أربعة أسطر لسلمان:</p>
+  <ol>
+    <li><b>النتيجة:</b> ما وجدته، برقمه وبرقم التباين.</li>
+    <li><b>ما لم تجده:</b> وما الذي لا يثبته ذلك.</li>
+    <li><b>التوصية:</b> هل يُستخدم الأمر لإعطاء درجات للمتقدمين؟</li>
+    <li><b>ما يجوز:</b> أين يساعد المساعد في هذا التوظيف.</li>
+  </ol>
+  <p>ثم سطر المختبر 1.4 في سجل الجلسة.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي: تشغيل واحد</h3>
+  <p>اقرأ الزوج 9 من التشغيل الأول وحده. ماذا كنت ستكتب؟ ثم اقرأ الزوج 6 من التشغيل نفسه. اكتب في جملة لماذا يُقيَّم كل زوج مرتين.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>ما تباين التشغيلين، وما متوسط فرق كل نوع؟</li>
+  <li>أي نوع يُحتسب فرقه بالقاعدة، وبكم يتجاوز التباين؟</li>
+  <li>فرق الزوج 1 وحده أكبر من التباين. لماذا لا تكتب «تحيز ضد الاسم»؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرب</summary>
+  <ul>
+    <li>الحل المرجعي: <code>labs/solutions/D1_4_read_scores.md</code>، والجدول في <code>labs/solutions/reference/D1_4_pair_analysis.csv</code>.</li>
+    <li>تباين التشغيلين 2.15 نقطة.</li>
+    <li>العمر: نزول 6 و5.5 و6، ومتوسطه 5.83. أكبر من التباين وفي اتجاه واحد: يُحتسب.</li>
+    <li>الجنس: صعود 2 وصعود 1 ونزول 1.5، ومتوسطه صعود 0.5. لا يُحتسب.</li>
+    <li>الاسم: نزول 2.5 ولا فرق ونزول 1 ولا فرق، ومتوسطه نزول 0.88 (0.875 مقرّبًا كما يقرّبه جدول البيانات). لا يُحتسب.</li>
+    <li>المزروع في المقيِّم البديل: ست نقاط للعمر، ونقطة واحدة للاسم، ولا شيء للجنس. فرق الاسم مزروع ولم يكشفه الاختبار: اكشف ذلك بعد التوصيات، فهو درس السطر الثاني.</li>
+    <li>الخطأ المعتاد: الطرح بالعكس، والحكم من الزوج 1 وحده، وتوصية تقول «لا تحيز في الجنس والاسم».</li>
+    <li>الحساب كله شُغّل بالكود على الملف المسجل. لم يُشغَّل شيء على نموذج لغوي.</li>
+  </ul>
+</details>
+</article>
+<nav class="pager"><a href="D1_3_matched_pairs.html" rel="prev">→ المختبر السابق</a><a href="D2_1_interview_guide.html" rel="next">المختبر التالي ←</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار الطلاقة في البيانات والذكاء الاصطناعي · الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-17⁩ · الإيداع 43aee0d</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-17T14:12:39Z","version":"2027.1.0","commit":"43aee0d"},"course":{"id":"use-pro-202","code":"USE-PRO-202","title":"الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب","track":"fluency","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/use-pro-202/","repo":"SDAIAAcademy/use-pro-202","home":"../index.html"},"lab":{"id":"1.4","title":"قراءة أربعين درجة وكتابة التوصية","summary":"تحلل في جدول بيانات أربعين درجة مسجلة لعشرة أزواج، وتضع فرق كل نوع أمام تباين التشغيلين، وتكتب توصيتك لسلمان","minutes":30,"day":1,"unit":"اليوم 1","session":4,"deck":"../slides/day1.html#lab-1-4","prev":"D1_3_matched_pairs.html","next":"D2_1_interview_guide.html","alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>

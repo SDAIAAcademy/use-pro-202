@@ -1,0 +1,29 @@
+[
+  {
+    "n": 1,
+    "kind": "name",
+    "ref": 78.5,
+    "alt": 76,
+    "shift": -2.5,
+    "run1": 0,
+    "run2": -5
+  },
+  {
+    "n": 6,
+    "kind": "gender",
+    "ref": 95.5,
+    "alt": 96.5,
+    "shift": 1,
+    "run1": 4,
+    "run2": -2
+  },
+  {
+    "n": 9,
+    "kind": "gender",
+    "ref": 45,
+    "alt": 43.5,
+    "shift": -1.5,
+    "run1": -4,
+    "run2": 1
+  }
+]
