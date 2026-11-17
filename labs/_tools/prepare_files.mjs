@@ -28,7 +28,8 @@ const BOM = String.fromCharCode(0xfeff);
 const csv = rows => BOM + rows.map(r => r.map(v => `"${String(v ?? "").replace(/"/g, '""')}"`).join(",")).join("\n") + "\n";
 const md = (head, rows) => `| ${head.join(" | ")} |\n|${head.map(() => "---").join("|")}|\n${rows.map(r => `| ${r.join(" | ")} |`).join("\n")}\n`;
 const mean = a => a.reduce((x, y) => x + y, 0) / a.length;
-const r2 = x => Math.round(x * 100) / 100;
+// Half away from zero, as a spreadsheet rounds: -0.875 is -0.88
+const r2 = x => Math.sign(x) * Math.round(Math.abs(x) * 100) / 100;
 const CHECK = "التحقق بالكود: `node labs/solutions/check.mjs`";
 
 for (const dir of [FILES, REF]) fs.rmSync(dir, { recursive: true, force: true });

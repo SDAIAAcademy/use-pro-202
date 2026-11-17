@@ -36,7 +36,8 @@ function csv(text) {
   return rows.filter(r => r.some(c => c !== ""));
 }
 const mean = a => a.reduce((x, y) => x + y, 0) / a.length;
-const r2 = x => Math.round(x * 100) / 100;
+// Half away from zero, as a spreadsheet rounds: -0.875 is -0.88
+const r2 = x => Math.sign(x) * Math.round(Math.abs(x) * 100) / 100;
 // The lines of two files that differ, compared position by position
 const diffLines = (a, b) => { const A = a.split("\n"), B = b.split("\n"); assert.equal(A.length, B.length, "the two files have a different number of lines"); return A.map((l, i) => [l, B[i]]).filter(([x, y]) => x !== y); };
 const roleCard = read(FILES, "case/role_card_data_analyst.md");
@@ -82,7 +83,7 @@ LABS["1.2"] = () => {
 // ------------------------------------------------------------------ 1.3
 const index = () => csv(read(FILES, "cv/pairs_index.csv")).slice(1);
 const cvText = id => read(FILES, `cv/${id}.md`);
-const secondList = () => index().filter(r => r[6] === "الاسم" && r[5] === "اسم غير عربي الأصل").map(r => S.features(cvText(r[4])).name);
+const secondList = () => index().filter(r => r[6] === "الاسم" && r[5] === "الاسم (ب)").map(r => S.features(cvText(r[4])).name);
 LABS["1.3"] = () => {
   // The three draft pairs: one sound, two with a second difference
   const expected = { 1: 1, 2: 2, 3: 2 }, verdict = csv(read(REF, "D1_3_pair_check.csv")).slice(1);

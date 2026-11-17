@@ -140,19 +140,19 @@ const B = {
   support: "- دعم المستخدمين في استخراج التقارير",
 };
 export const pairs = [
-  { n: 1, kind: "name", ref: "أنس مروان توفيق", alt: "عمران شاهد إقبال", born: 1996, degree: "الإحصاء", years: "ثلاث سنوات", where: "شركة توزيع", lines: [B.sales, B.eda, B.sql, B.dash] },
+  { n: 1, kind: "name", ref: "أنس مروان توفيق", alt: "عمر باسل يوسف", born: 1996, degree: "الإحصاء", years: "ثلاث سنوات", where: "شركة توزيع", lines: [B.sales, B.eda, B.sql, B.dash] },
   { n: 2, kind: "gender", ref: "رامي عدنان شكري", alt: "ريما عدنان شكري", born: 1997, degree: "نظم المعلومات", years: "سنتان", where: "شركة تجزئة", lines: [B.sales, B.dash, B.present, B.reports] },
   { n: 3, kind: "age", ref: 1997, alt: 1972, name: "هشام رفيق أمين", degree: "تحليل البيانات", years: "ثلاث سنوات", where: "مصنع مواد غذائية", lines: [B.sales, B.eda, B.sql, B.dash, B.privacy] },
-  { n: 4, kind: "name", ref: "لمياء ياسر منير", alt: "بريا راجيف مينون", born: 1995, degree: "علوم الحاسب", years: "سنتان", where: "شركة شحن", lines: [B.sql, B.dash, B.reports] },
+  { n: 4, kind: "name", ref: "لمياء ياسر منير", alt: "رنا مازن سعيد", born: 1995, degree: "علوم الحاسب", years: "سنتان", where: "شركة شحن", lines: [B.sql, B.dash, B.reports] },
   { n: 5, kind: "age", ref: 1995, alt: 1970, name: "سوسن وديع حليم", degree: "الإحصاء", years: "سنتان", where: "شركة تأمين", lines: [B.eda, B.present, B.reports] },
   { n: 6, kind: "gender", ref: "وسيم فؤاد نجيب", alt: "نسرين فؤاد نجيب", born: 1994, degree: "تحليلات الأعمال", years: "ثلاث سنوات", where: "سلسلة معارض", lines: [B.sales, B.eda, B.sql, B.dash, B.present, B.privacy] },
-  { n: 7, kind: "name", ref: "معتز حازم رأفت", alt: "جوزيف أنطوني فرنانديز", born: 1998, degree: "إدارة الأعمال", years: "سنة واحدة", where: "مكتب محاسبة", lines: [B.reports, B.stock, B.support] },
+  { n: 7, kind: "name", ref: "معتز حازم رأفت", alt: "طارق وليد حمدي", born: 1998, degree: "إدارة الأعمال", years: "سنة واحدة", where: "مكتب محاسبة", lines: [B.reports, B.stock, B.support] },
   { n: 8, kind: "age", ref: 1998, alt: 1974, name: "نبيل شوقي لبيب", degree: "نظم المعلومات", years: "سنتان", where: "شركة مقاولات", lines: [B.sales, B.sql, B.reports, B.stock] },
   { n: 9, kind: "gender", ref: "جمال صبحي كامل", alt: "جميلة صبحي كامل", born: 1996, degree: "الجغرافيا", years: "سنتان", where: "جمعية خيرية", lines: [B.eda, B.reports, B.support] },
-  { n: 10, kind: "name", ref: "سلاف نزار وجيه", alt: "ماريا كريستينا سانتوس", born: 1997, degree: "تحليل البيانات", years: "ثلاث سنوات", where: "شركة اتصالات", lines: [B.sales, B.eda, B.sql, B.present, B.privacy] },
+  { n: 10, kind: "name", ref: "سلاف نزار وجيه", alt: "دانة ماجد عادل", born: 1997, degree: "تحليل البيانات", years: "ثلاث سنوات", where: "شركة اتصالات", lines: [B.sales, B.eda, B.sql, B.present, B.privacy] },
 ];
 export const KIND = { name: "الاسم", gender: "الجنس", age: "العمر" };
-export const VERSION = { name: ["اسم عربي الأصل", "اسم غير عربي الأصل"], gender: ["اسم رجل", "اسم امرأة"], age: ["الأصغر", "الأكبر"] };
+export const VERSION = { name: ["الاسم (أ)", "الاسم (ب)"], gender: ["اسم رجل", "اسم امرأة"], age: ["الأصغر", "الأكبر"] };
 
 export function cv(id, { name, born, degree, years, where, lines, extra = "" }) {
   return `# السيرة الذاتية · ${id}
@@ -186,7 +186,7 @@ export const draftPairs = [
   { n: 1, kind: "gender", sound: true, note: "زوج سليم: يختلف الملفان في سطر الاسم وحده",
     a: { name: "ماهر زكي عطية", born: 1996 }, b: { name: "مها زكي عطية", born: 1996 } },
   { n: 2, kind: "name", sound: false, note: "فرق ثانٍ: في سطر المهارات لغة Python في ملف واحد. فرق الدرجة لن يُنسب إلى الاسم",
-    a: { name: "فراس لبيب صادق", born: 1995 }, b: { name: "سانجاي موهان داس", born: 1995, extra: "، Python" } },
+    a: { name: "فراس لبيب صادق", born: 1995 }, b: { name: "زياد مأمون سالم", born: 1995, extra: "، Python" } },
   { n: 3, kind: "age", sound: false, note: "فرق ثانٍ: مدة الخبرة تغيّرت مع سنة الميلاد. الزوج يختبر العمر والخبرة معًا",
     a: { name: "شفيق منصف رؤوف", born: 1997, years: "سنتان" }, b: { name: "شفيق منصف رؤوف", born: 1971, years: "ست سنوات" } },
 ];
